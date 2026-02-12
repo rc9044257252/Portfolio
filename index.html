@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Chaurasiya | Software Engineer</title>
+    <meta name="description"
+        content="Professional Portfolio of Rahul Chaurasiya, a Software Engineer specializing in React Native, React, and Next.js.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#hero" class="logo">RC<span class="dot">.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section hidden">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting"><span class="wave">👋</span> Hey, I'm Rahul Chaurasiya</p>
+                    <h1 class="hero-title">Full-Stack Developer.</h1>
+                    <p class="hero-description">
+                        Full Stack Developer based in Lucknow, UP. I specialize in building scalable web applications,
+                        responsive designs, and robust backends using <strong>React Native</strong>,
+                        <strong>React</strong>, and <strong>Next.js</strong>.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">HIRE ME <i class="fas fa-arrow-right"></i></a>
+                        <a href="Rahul CH (1).pdf" class="btn btn-text" download><i class="fas fa-play"></i>
+                            Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="profile.png" alt="Rahul Chaurasiya"
+                        onerror="this.src='https://placehold.co/400x500/1a4d2e/FFF?text=Add+profile.png'">
+                </div>
+            </div>
+            <!-- Background elements removed/simplified for this design if needed, or kept -->
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section hidden">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a passionate <strong>Software Engineer</strong> based in Lucknow, UP, with a strong
+                            foundation in Computer Science from SRMS Engineering College.
+                            I hold a B.Tech degree (2020-2024) with a CGPA of 7.
+                        </p>
+                        <p>
+                            My expertise lies in building end-to-end full-stack solutions. I thrive in Agile
+                            environments, collaborating with cross-functional teams to deliver high-quality software.
+                            I have a proven track record of optimizing performance, refactoring legacy systems, and
+                            mentoring junior developers.
+                        </p>
+                        <div class="achievements-list">
+                            <div class="achievement-item">
+                                <i class="fas fa-code"></i>
+                                <span>Top 20% on Leetcode (350+ Problems)</span>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>Global Rank 115 in CodeChef Cook-off</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section hidden">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <!-- Job 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jan 2025 – Present</div>
+                        <div class="timeline-content">
+                            <h3 class="role">Software Engineer</h3>
+                            <h4 class="company">Jamtech Technologies Pvt Ltd <span class="location">| Lucknow, UP</span>
+                            </h4>
+                            <ul class="job-details">
+                                <li>Delivered end-to-end full-stack solutions by developing <strong>80+ RESTful
+                                        APIs</strong> in Next.js and building responsive React UIs, engaging
+                                    <strong>100,000+ active users</strong>.
+                                </li>
+                                <li>Engineered scalable microservices for backend operations, improving page load times
+                                    by <strong>25%</strong>.</li>
+                                <li>Refactored legacy monolithic systems into modular microservices, achieving
+                                    <strong>45% scalability gains</strong>.
+                                </li>
+                                <li>Collaborated in an Agile environment to reduce feature delivery time by
+                                    <strong>20%</strong>.
+                                </li>
+                                <li>Enhanced frontend performance by optimizing React components, resulting in
+                                    <strong>30% faster client-side rendering</strong>.
+                                </li>
+                                <li>Mentored 5+ junior developers, improving team productivity by <strong>20%</strong>
+                                    through code reviews and best practices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section hidden">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Akati App/Website</h3>
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <a href="https://akatibird.com" title="Live Demo"><i
+                                            class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A scalable digital reading platform that allows users to discover, browse, and read
+                                books and stories anytime.
+                                Designed to be simple, intuitive, and accessible on all mobile devices.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span> React Native</span>
+                                <span>SQL</span>
+                                <span>API</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Designed config-driven modules to minimize future code changes.</li>
+                                <li>Enabled dynamic feature rollouts for diverse literary content.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Paivot -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Paivot</h3>
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <a href="https://paivot.net" title="Live Demo"><i
+                                            class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Paivot is a modern platform that simplifies data-driven decision-making, helping
+                                businesses analyze insights and optimize performance..
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Next.js</span>
+                                <span>API Integration</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Implemented responsive dashboard layouts.</li>
+                                <li>Optimized data fetching for real-time updates.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Teramart -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Teramart</h3>
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A modern e-commerce platform offering a seamless shopping experience.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Developed secure payment gateway integration.</li>
+                                <li>Built a scalable product catalog system.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section hidden">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Java (8-21)</span>
+                            <span>SQL</span>
+                            <span>JavaScript (ES6+)</span>
+                            <span>TypeScript</span>
+                            <span>HTML5/CSS3</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skill-tags">
+                            <span>React Native</span>
+                            <span>React.js</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>Bootstrap</span>
+                            <span>Tailwind CSS</span>
+                            <span>Styled Components</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span>Git/GitHub</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>Jenkins</span>
+                            <span>Postman</span>
+                            <span>JIRA</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Core Concepts</h3>
+                        <div class="skill-tags">
+                            <span>Data Structures & Algo</span>
+                            <span>Microservices</span>
+                            <span>RESTful APIs</span>
+                            <span>OOP</span>
+                            <span>SOLID Principles</span>
+                            <span>Agile/SDLC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section hidden">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-subtitle">I'm currently available for freelance work or full-time opportunities.</p>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:rahulchaurasiya8967@gmail.com">rahulchaurasiya8967@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919044257252">+91 9044257252</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/rahul-chaurasiya-22bb93213" target="_blank">LinkedIn
+                                Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Rahul Chaurasiya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

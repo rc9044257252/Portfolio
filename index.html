@@ -19,6 +19,23 @@
 </head>
 
 <body>
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- 3D Welcome Overlay -->
+    <div id="welcome-overlay">
+        <div class="intro-card">
+            <h1 class="intro-title">Welcome to my Portfolio</h1>
+            <h2 class="intro-name">Rahul Chaurasiya</h2>
+            <h3 class="intro-role">Software Engineer</h3>
+            <div class="intro-details">
+                <p><i class="fas fa-map-marker-alt"></i> Lucknow, UP</p>
+                <p><i class="fas fa-university"></i> SRMS Engineering College</p>
+            </div>
+            <p class="intro-quote">"Passionate about Technology and Mentoring"</p>
+            <button id="enter-btn" class="btn-enter">Enter Portfolio <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
     <header class="header">
         <nav class="navbar">
             <a href="#hero" class="logo">RC<span class="dot">.</span></a>
@@ -100,6 +117,27 @@
             <div class="container">
                 <h2 class="section-title">Experience</h2>
                 <div class="timeline">
+                    <!-- Jspiders Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">01/07/2024 - 30/12/2024</div>
+                        <div class="timeline-content">
+                            <h3>Jspider Software Pvt. Ltd.</h3>
+                            <p class="role">Java Full Stack Trainee</p>
+                            <p class="location">Noida, India</p>
+                            <p class="description">Completed intensive training in Full Stack Development.</p>
+                            <div class="tech-stack-tags">
+                                <span>Java</span>
+                                <span>JavaScript</span>
+                                <span>React.js</span>
+                                <span>Springboot</span>
+                                <span>HTML/CSS</span>
+                                <span>SQL</span>
+                                <span>PL/SQL</span>
+                            </div>
+                            <p class="mt-3"><strong>Key Skills:</strong> Communication, Leadership</p>
+                        </div>
+                    </div>
+
                     <!-- Job 1 -->
                     <div class="timeline-item">
                         <div class="timeline-date">Jan 2025 – Present</div>
@@ -132,11 +170,101 @@
             </div>
         </section>
 
+        <!-- Certifications Section -->
+        <section id="certifications" class="section certifications-section hidden">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certifications-grid">
+                    <!-- Full Stack Cert -->
+                    <div class="certification-card">
+                        <div class="cert-icon"><i class="fas fa-code"></i></div>
+                        <h3>Full Stack Development</h3>
+                        <p class="issuer">Jspider Software Pvt. Ltd.</p>
+                        <p class="cert-desc">Comprehensive certification covering Java, React, SQL, and modern web
+                            technologies.</p>
+                    </div>
+
+                    <!-- React Native Cert -->
+                    <div class="certification-card">
+                        <div class="cert-icon"><i class="fab fa-react"></i></div>
+                        <h3>React Native</h3>
+                        <p class="issuer">Jamtech Technologies Pvt. Ltd.</p>
+                        <p class="cert-desc">Specialized full time work & training in building cross-platform mobile
+                            applications.</p>
+                    </div>
+
+                    <!-- AWS Cert -->
+                    <div class="certification-card">
+                        <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                        <h3>AWS Cloud</h3>
+                        <p class="issuer">IBM SkillBuild</p>
+                        <p class="cert-desc">Foundational knowledge of Amazon Web Services and cloud computing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Projects Section -->
         <section id="projects" class="section projects-section hidden">
             <div class="container">
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="projects-grid">
+                    <!-- Project: mHealth -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">mHealth</h3>
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.ssd.madisonhealth"
+                                        class="play-store-link" title="Available on Play Store"><i
+                                            class="fab fa-google-play"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A comprehensive mobile health solution designed to revolutionize patient care.
+                                Features real-time health monitoring, secure medical record storage, and seamless
+                                doctor-patient communication.
+                                <strong>Available on Play Store.</strong>
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>React Native</span>
+                                <span>API Integration</span>
+                                <span>Mobile Dev</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Built with React Native for cross-platform performance.</li>
+                                <li>Implemented secure user authentication and data encryption.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project: Cognisap -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Cognisap</h3>
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.cognisap.com" title="Live Demo"><i
+                                            class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A comprehensive platform for a technology consulting firm specializing in SAP solutions,
+                                digital transformation, and business process optimization.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>React</span>
+                                <span>API Integration</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Developed using React for a modern, responsive interface.</li>
+                                <li>Implemented robust API integrations for dynamic content delivery.</li>
+                            </ul>
+                        </div>
+                    </article>
+
                     <!-- Project 1 -->
                     <article class="project-card">
                         <div class="project-content">
